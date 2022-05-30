@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools >= 46.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 90
+
+[tool.isort]
+profile = "black"
+order_by_type = true
+skip_gitignore = true
